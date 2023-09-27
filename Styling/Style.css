@@ -1,16 +1,21 @@
 .main-container {
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
 h1 {
     color: rgb(25, 207, 119);
     text-align:center;
 }
+#about-me {
+    color: rgba(66, 66, 73, 0.674);
+    margin: 0 auto;
+    width: 90%;
+}
 h2 {
-    text-align: center;
+    text-align: left;
 }
 .Resume {
     text-align: center;
@@ -22,25 +27,29 @@ h2 {
 .photo { 
    width: 65%;
    margin: 0 auto;
-   
+   border-radius: 20%;
 }
 .photo {
     margin: 0 auto;
-    width: 50%;
+    width: 60%;
+    margin-bottom: 200px;
+}
+.second-photo {
+    margin: 0 auto;
+    width: 60%;
+    border-radius: 20%;
 }
 .funn-facts {
-    width: 30%;
-   margin: 0 auto;
+   text-align: left;
 }
 .navbar{
     display: flex;
     text-align: center;
     width: 100%;
     justify-content: space-around;
-    background-color:rgb(191, 222, 216);
-
+    background-color:rgb(147, 193, 238);
     margin-bottom: 50px;
-
+    top: 0;
 }
 .navbar li{
     float: left;
@@ -53,9 +62,71 @@ h2 {
 .navbar a {
     display: block;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
-    font-weight: 300px;
+    font-weight: 2900px;
     padding: 25px 30px;
     
+}
+.navbar a:hover {
+    background-color: rgb(204, 154, 154);
+}
+/*.info p {
+    color: rgb(0, 0, 0);
+    width: 80%;
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 14px;
+    float: right;
+    clear: both;
+    margin-right: 9px;
+    margin-bottom: 9px;
+}
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#footer {
+    background-color: rgb(75, 119, 92);
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    clear: both;
+}
+.footer-container {
+    width: 100%;
+    padding: 4px 4px 4px;
+    
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    text-decoration: none;
+    padding: 8px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.social-icons a i {
+    font-size: 1.7em;
+    color: black;
+    opacity: 0.9;
+}
+.social-icons a:hover {
+    background-color: #957;
+    transition: .8s;
+}
+.social-icons a:hover i {
+    color: white;
+    transition: 0.8s;
+}
+.copyright p {
+    color: white;
+    text-align: center;
 }
