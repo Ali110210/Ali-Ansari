@@ -1,46 +1,70 @@
+
+h1 {
+    color: rgb(25, 207, 119);
+    margin-left: 32%;
+    margin-bottom: 2%;
+}
+#about-me {
+    color: rgba(66, 66, 73, 0.674);
+    margin-bottom: 2%;
+    margin-left: 30%;
+    width: 80%;
+}
+h2 {
+    text-align: left;
+}
+.Resume h1 {
+    color: rgb(102, 94, 120);
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+.Resume ul li {
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.Classmates {
+    color: rgb(121, 157, 148);
+    font-family: 'Times New Roman', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    margin-left: 2%;
+}
+.links {
+    font-size: 14px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.photo {
+    margin: 0 auto;
+   border-radius: 20%;
+    display: flex;
+    gap: 25px;
+    clear: both;
+    width: 60%;
+    margin-bottom: 200px;
+    align-items: center;
+}
+.second-photo {
+    margin: 0 auto;
+    width: 60%;
+}
+.second-photo img {
+    border-radius: 10%;
+}
+.funn-facts {
+   text-align: left;
+}
+.info {
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
 .main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
-}
-
-h1 {
-    color: rgb(25, 207, 119);
-    text-align:center;
-}
-#about-me {
-    color: rgba(66, 66, 73, 0.674);
-    margin: 0 auto;
-    width: 90%;
-}
-h2 {
-    text-align: left;
-}
-.Resume {
-    text-align: center;
-    color: rgb(102, 94, 120);
-}
-.Classmates {
-    color: rgb(123, 123, 97);
-}
-.photo { 
-   width: 65%;
-   margin: 0 auto;
-   border-radius: 20%;
-}
-.photo {
-    margin: 0 auto;
-    width: 60%;
-    margin-bottom: 200px;
-}
-.second-photo {
-    margin: 0 auto;
-    width: 60%;
-    border-radius: 20%;
-}
-.funn-facts {
-   text-align: left;
+    width: 100%;
 }
 .navbar{
     display: flex;
@@ -71,19 +95,6 @@ h2 {
 .navbar a:hover {
     background-color: rgb(204, 154, 154);
 }
-/*.info p {
-    color: rgb(0, 0, 0);
-    width: 80%;
-    height: 200px;
-    overflow-y: auto;
-    overflow-x: hidden;
-    padding: 14px;
-    float: right;
-    clear: both;
-    margin-right: 9px;
-    margin-bottom: 9px;
-}
-*/
 * {
     padding: 0;
     margin: 0;
